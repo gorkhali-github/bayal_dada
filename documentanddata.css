@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .panel {
+        color:white;
+        height: 40px;
+        display: flex;
+        background-color:  #222f3d;
+        align-items: center;
+        justify-content:space-between;
+      
+    }
+     .panal, i{
+       font-size: medium;
+    } 
+    .panel-home{
+        width: 50px;
+        display: flex;
+        align-items: center;
+
+        border: none;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+   main, a{
+text-decoration: none;
+
+   }
+   .panel-home{
+    margin-left: 15px;
+   }
+   .contactus{
+    margin-right: 80px;
+
+   }
+
+
+
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    width: 50%;
+    height: 100000rem;
+    background-color: #ccc; /* Set background color or add background image */
+    margin: 10px 0; /* Add margin between photos */
+}
+
+.done{
+    background-image: url(d1.png);
+    height: 1000px;
+    width: 50%;
+   
+    background-size: cover;
+    
+
+}
+.dtwo{
+    background-image: url(d2.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dthree{
+    background-image: url(d3.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dfour{
+    background-image: url(d4.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dfive{
+    background-image: url(d5.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dsix{
+    background-image: url(d6.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dseven{
+    background-image: url(d7.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.deight{
+    background-image: url(d8.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dnine{
+    background-image: url(d9.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dten{
+    background-image: url(d10.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.deleven{
+    background-image: url(d11.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dtwelve{
+    background-image: url(d12.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dthirteen{
+    background-image: url(d13.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dfourteen{
+    background-image: url(d14.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dfiveteen{
+    background-image: url(d15.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dsixteen{
+    background-image: url(d16.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dseventeen{
+    background-image: url(d17.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.deighteen{
+    background-image: url(d18.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dninteen{
+    background-image: url(d19.png);
+    height: 1000px;
+    width: 100%;
+     background-size: cover;
+}
+.dtwenty{
+    background-image: url(d20.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dtwentyone{
+    background-image: url(d21.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dtwentytwo{
+    background-image: url(d22.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+.dtwentythree{
+    background-image: url(d23.png);
+    height: 1000px;
+    width: 50%;
+     background-size: cover;
+}
+
+
+
+
+
+    /* FOOTER */
+    footer{
+        height: 318px;
+        width: 100%;
+        background-color: #37475a;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+    
+        .photo {
+            background-image: url(logo123.jpg);
+            height: 250px;
+            width: 220px;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border: none; /* Add border for visualization */
+            margin-right: 30px; /* Add some margin for spacing */
+         
+            align-self: flex-end; /* Align the .photo div to the bottom right */
+         
+        }
+        .foot-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+       .foot-content a {
+            margin-right: 40px; /* Adjust the value to set the desired space between the anchor tags */
+            border: 1px solid whitesmoke;
+        }
+        .copyright{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            font-size: large;
+            margin-bottom: 20px;
+    
+        }
+        .diwash{
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .diwash, a{
+            margin: 5px;
+        }
+    

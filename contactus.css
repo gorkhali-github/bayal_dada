@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+    
+
+    .panel {
+        color:white;
+        height: 40px;
+        display: flex;
+        background-color:  #222f3d;
+        align-items: center;
+        justify-content:space-between;
+      
+    }
+     .panal, i{
+       font-size: medium;
+    } 
+    .panel-home{
+        width: 50px;
+        display: flex;
+        align-items: center;
+
+        border: none;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+   main, a{
+text-decoration: none;
+
+   }
+   .panel-home{
+    margin-left: 15px;
+   }
+   .contactus{
+    margin-right: 80px;
+
+   }
+
+
+
+   .contactnumber {
+       height: 500px;
+       width: 100%;
+       /* display: flex; */
+       
+       background-color: #37475a;
+       background-image: url(contact.png);
+       display: flex;
+       background-size: cover;
+   }
+   
+   
+
+
+
+
+
+
+
+
+
+    /* FOOTER */
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: #37475a;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .photo {
+        background-image: url(logo123.jpg);
+        height: 250px;
+        width: 220px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        border: none; /* Add border for visualization */
+        margin-right: 30px; /* Add some margin for spacing */
+     
+        align-self: flex-end; /* Align the .photo div to the bottom right */
+     
+    }
+    .foot-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+   .foot-content a {
+        margin-right: 40px; /* Adjust the value to set the desired space between the anchor tags */
+        border: 1px solid whitesmoke;
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: large;
+        margin-bottom: 20px;
+
+    }
+    .diwash{
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .diwash, a{
+        margin: 5px;
+    }
